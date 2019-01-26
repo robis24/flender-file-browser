@@ -39,7 +39,7 @@ def register():
     kc = bpy.context.window_manager.keyconfigs.addon
     if kc:
         km = kc.keymaps.new(name="File Browser", space_type="FILE_BROWSER")
-        kmi = km.keymap_items.new('object.open_file', 'O', 'PRESS')
+        kmi = km.keymap_items.new('object.open_file', 'LEFTMOUSE', 'DOUBLE_CLICK')
 
 def unregister():
     bpy.utils.unregister_class(OpenFile)
