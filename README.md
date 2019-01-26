@@ -3,4 +3,4 @@ File browser/manager/explorer script futere add-on/fork based on the Blender fil
 
 open in Blender text editor en run script
 
-open files with Blender File Browser with 'O' hotkey
+open files with Blender File Browser 
