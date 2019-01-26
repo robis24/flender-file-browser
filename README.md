@@ -1,5 +1,5 @@
 # flender-file-browser
-File browser/manager/explorer script futere add-on/fork based on the Blender file browser 
+File browser/manager/explorer script for the Blender file browser 
 
 open in Blender text editor en run script
 
