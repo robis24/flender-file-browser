@@ -7,12 +7,11 @@ def main(context):
     
     
     selectedFile = ''
-    for screenArea in bpy.context.window.screen.areas:
-        if screenArea.type == 'FILE_BROWSER':
-            params = screenArea.spaces[0].params
-            selectedFile = os.path.join(params.directory, params.filename)
-            print(selectedFile)
-            break
+    
+        
+    params = bpy.context.area.spaces[0].params
+    selectedFile = os.path.join(params.directory, params.filename)
+   
 
 
 
