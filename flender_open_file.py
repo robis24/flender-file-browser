@@ -8,6 +8,7 @@ def mainnew(context):
     for area in context.screen.areas:
         if area not in start_areas:
             area.type = 'FILE_BROWSER'
+            bpy.ops.file.bookmark_toggle()
 
 def main(context):
 
